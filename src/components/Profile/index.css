@@ -1,0 +1,66 @@
+.profileContainer {
+  background-color: rgb(15, 23, 42);
+  width: 275px;
+  min-height: 96vh;
+  padding: 20px;
+  /* color: #4f46e5; */
+  padding-top: 10px;
+}
+.logo-heading {
+  color: white;
+  font-family: ;
+  padding: 10px;
+  text-align: center;
+  margin-top: 0px;
+}
+.profile-image {
+  height: 100px;
+  width: 100px;
+  color: #4f46e5;
+}
+.sub-profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.profile-name {
+  color: aliceblue;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 1px;
+}
+.profile-email {
+  color: seashell;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 5px;
+}
+.tabs-container {
+  min-height: 250px;
+  margin-top: 30px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tab-Item {
+  list-style-type: none;
+  margin-left: 0px;
+  padding: 7px;
+  display: flex;
+  justify-content: left;
+  width: 200px;
+}
+.dashboard-image {
+  color: #4f46e5;
+  height: 35px;
+  width: 35px;
+}
+.tab-des {
+  color: mintcream;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 0px;
+}
