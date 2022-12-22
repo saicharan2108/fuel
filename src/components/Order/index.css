@@ -60,3 +60,123 @@
   font-size: 20px;
   border-width: 0px;
 }
+.profileContainer {
+  background-color: rgb(15, 23, 42);
+  width: 275px;
+  min-height: 96vh;
+  padding: 20px;
+  /* color: #4f46e5; */
+  padding-top: 10px;
+}
+.logo-heading {
+  color: white;
+  font-family: ;
+  padding: 10px;
+  text-align: center;
+  margin-top: 0px;
+}
+.profile-image {
+  height: 100px;
+  width: 100px;
+  color: #4f46e5;
+}
+.sub-profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.profile-name {
+  color: aliceblue;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 1px;
+}
+.profile-email {
+  color: seashell;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 5px;
+}
+.tabs-container {
+  min-height: 250px;
+  margin-top: 30px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tab-Item {
+  list-style-type: none;
+  margin-left: 0px;
+  padding: 7px;
+  display: flex;
+  justify-content: left;
+  width: 200px;
+  cursor: pointer;
+}
+button {
+  list-style-type: none;
+  margin-left: 0px;
+  padding: 7px;
+  display: flex;
+  justify-content: left;
+  width: 200px;
+  cursor: pointer;
+  background-color: transparent;
+  border-width: 0px;
+}
+.dashboard-image {
+  color: #4f46e5;
+  height: 35px;
+  width: 35px;
+}
+.tab-des {
+  color: mintcream;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+.load-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 97vh;
+}
+.err-content {
+  width: 50%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.err-img {
+  width: 50%;
+  align-self: center;
+}
+.not-found-des {
+  font-size: 30px;
+  font-weight: 500;
+  color: gray;
+}
+.err-title {
+  font-size: 60px;
+  color: dodgerblue;
+  text-align: center;
+  margin-top: 0px;
+}
+.selected-tab-Item {
+  list-style-type: none;
+  margin-left: 0px;
+  padding: 7px;
+  display: flex;
+  justify-content: left;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #9491eb;
+
+  border-radius: 10px;
+  color: black !important;
+}
